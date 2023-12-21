@@ -21,8 +21,6 @@
             color: #555;
         }
 
-        /* Ajoutez d'autres styles CSS au besoin */
-
         .todolist {
             display: none;
             margin-top: 20px;
@@ -47,25 +45,22 @@
             margin-left: 10px;
         }
 
-        /* Ajout de styles pour réduire la taille de l'image */
         #toggleButton {
-            width: 300px; /* Ajustez la largeur selon vos besoins */
-            height: auto; /* Garantit que la hauteur est ajustée proportionnellement à la largeur */
-            transition: transform 0.3s ease-in-out; /* Ajout de la transition pour le flottement */
+            width: 300px;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
         }
 
         #toggleButton:hover {
-            transform: scale(1.10); /* Flottement lorsque la souris survole l'image */
+            transform: scale(1.10);
         }
 
-        /* Ajoutez la classe personnalisée pour la couleur orange */
         .btn-orange {
-            background-color: #444b66; /* Remplacez ceci par votre couleur orange personnalisée */
+            background-color: #444b66;
             border-color: #444b66;
-            color: #fff; /* Texte en blanc pour contraster avec l'arrière-plan orange */
+            color: #fff;
         }
-
-        /* Ajoutez de l'espace entre les boutons "Terminé" et "Supprimer" */
+        
         .btn-space {
             margin-right: 10px;
         }
@@ -80,14 +75,14 @@
     <div class="todolist" id="todolist">
         <h2>Items souhaités pour le voyage:</h2>
         <ul id="taskList">
-            <!-- Tasks will be dynamically added here -->
+
         </ul>
         <input type="text" id="newTask" placeholder="Ajouter une tache">
-        <!-- Utilisation de classes Bootstrap pour les boutons -->
+
         <button class="btn btn-primary btn-orange" onclick="addTask()">🚀</button>
     </div>
 
-    <!-- Ajout du lien vers Bootstrap JS (facultatif, mais nécessaire pour certaines fonctionnalités Bootstrap) -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
