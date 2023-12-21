@@ -1,2 +1,2 @@
 # index-template
-A simple index.php that i use as a template for some tests
+Outer Index: A Simple Template for Testing - This GitHub repository features an 'index.htmlt' file, that i use as a go-to template for various programming experiments and tests.
